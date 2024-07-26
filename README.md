@@ -1,6 +1,6 @@
 # Raytracer Project
 
-![Example Image](image.ppm)
+![Example Image](image.png)
 
 This project is a simple raytracer implemented in C++. It demonstrates basic concepts of ray tracing, including rendering spheres with surface normals and antialiasing.
 

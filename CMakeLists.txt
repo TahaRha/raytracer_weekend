@@ -5,17 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 include_directories(include)
 
-add_executable(raytracer_weekend main.cpp
-        include/vec3.h
-        include/color.h
-        include/ray.h
-        include/hittable.h
-        include/sphere.h
-        include/hittable_list.h
-        include/rtweekend.h
-        include/interval.h
-        include/camera.h
-        include/material.h)
+add_executable(raytracer_weekend main.cpp)
 
 add_custom_target(run_raytracer
         COMMAND raytracer_weekend > image.ppm
